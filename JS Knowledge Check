@@ -14,6 +14,32 @@ console.log(student.studentId)
 
 
 
+Javascript Knowledge Check (Level 2)
+3) How do you create a Random Integer between 1-100?
+
+var randomNumber = Math.ceil(Math.random() * 100)
+console.log(randomNumber)
+
+
+
+Code Challange 
+1) Create an application that will randomly assign students from the class to do an exercise
+on the whiteboard.
+
+var students = 
+["Joshua","Anson","Matthew","Shivashankari","Vincent"]
+
+var randomNumber = Math.floor(Math.random()*
+students.length);
+console.log(students[randomNumber]+" will do the exercise")
+
+
+
+
+2) Create a function that will take the words enter by user. It will count the number of
+vowels inside the word, count and return it to user. Eg: Asia Developer Academy == There
+are 8 vowels.
+
 function vowelCounter(sentence){
   // Initialize the answer
   var answer = 0
