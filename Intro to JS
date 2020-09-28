@@ -56,10 +56,3 @@ console.log(myNumber.toPrecision(3));
 
 
 
-Try It : Math
-Return a random number between 1-100
-
-var randomNumber = Math.ceil(Math.random() * 100)
-console.log(randomNumber)
-
-
