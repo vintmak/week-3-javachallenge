@@ -53,11 +53,6 @@ function transformMilitary(timeString){
     if (timeString.substring(0,2) == "12"){
       return timeString.substring(0,8)
     }
-  }
-    else {
-      if (timeString.substring(0,2) == "12"){
-        return timeString.substring(0,8) 
-      }
       else {
         return               (parseInt(timeString.substring(0,2))+12)+timeString.substring(2,8)
     }
